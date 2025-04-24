@@ -27,4 +27,35 @@ def deduplicate(f1, f2):
             nombre_ligne+=1
                 
                 
+def normalize(f1, f2):
+    """
+    EXERCICE 2
+    Permet de normaliser l'écriture du descripteur sex sur chacune des lignes.
+    Certaines lignes le renseigne par M ou F
+    D'autres par Male ou Female
+    On ne conservera que l'écriture -> M ou F
+
+    Args:
+        f1 (_type_): _description_
+        f2 (_type_): _description_
+    """
+    normalize_rows = []
+
+    with open(f1) as fichier_a_traiter:
+        reader = csv.reader(fichier_a_traiter, delimiter=",")
+        for row in reader:
+            for i in range(len(row)):
+                if row[i] == "Male":
+                    row[i] = "M"
+                elif row[i] == "Female":
+                    row[i] = "F"
+            normalize_rows.append(row)
+    
+    with open(f2, "w") as fichier_a_completer:
+        writer = csv.writer(fichier_a_completer, delimiter=",")
+        writer.writerows(normalize_rows)
+
+
+
 deduplicate("olympics_reduced.csv", "olympics_clean.csv")
+normalize("olympics_reduced.csv", "olympics_clean.csv")
