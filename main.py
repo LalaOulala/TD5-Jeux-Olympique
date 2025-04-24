@@ -36,8 +36,8 @@ def normalize(f1, f2):
     On ne conservera que l'écriture -> M ou F
 
     Args:
-        f1 (_type_): _description_
-        f2 (_type_): _description_
+        f1 (string): chemin vers le fichier à traiter (.csv)
+        f2 (string): chemin du fichier créer après l'opération (.csv)
     """
     normalize_rows = []
 
@@ -55,7 +55,40 @@ def normalize(f1, f2):
         writer = csv.writer(fichier_a_completer, delimiter=",")
         writer.writerows(normalize_rows)
 
+def filter_medal(f1, f2):
+    """
+    EXERCICE 3
+    On veut filtrer les sportifs n'ayant pas reçu de médaille,
+    pour ne garder dans nos data que les sportifs ayant des médailles
 
+    Args:
+        f1 (string): chemin vers le fichier à traiter (.csv)
+        f2 (string): chemin du fichier créer après l'opération (.csv)
+    """
+    medal_rows = []
 
-deduplicate("olympics_reduced.csv", "olympics_clean.csv")
-normalize("olympics_reduced.csv", "olympics_clean.csv")
+    with open(f1) as fichier_a_traiter:
+        reader = csv.reader(fichier_a_traiter, delimiter=",")
+        for row in reader:
+            if row[len(row)-1] != "0": # il y a une valeur différentes de zéro pour le descripteur Medal
+                medal_rows.append(row)
+
+    with open(f2, "w") as fichier_a_completer:
+        writer = csv.writer(fichier_a_completer, delimiter=",")
+        writer.writerows(medal_rows)
+
+def clean_data(f1, f2):
+    """
+    EXERCICE 4
+    On veut appliquer les trois fonctions de nettoyage a notre fichier f1
+    On obtiendra alors nos données complétement nettoyées
+
+    Args:
+        f1 (string): chemin vers le fichier à traiter (.csv)
+        f2 (string): chemin du fichier créer après l'opération (.csv)
+    """
+    deduplicate(f1, f1)
+    normalize(f1, f1)
+    filter_medal(f1, f2)
+
+clean_data("olympics_reduced_bis.csv", "olympics_cleaned.csv")

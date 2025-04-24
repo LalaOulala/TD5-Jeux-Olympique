@@ -1,31 +1,18 @@
-,Name,Sex,Age,Team,Games,Year,Season,Sport,Medal
-0,A Dijiang,M,24.0,China,1992 Summer,1992,Summer,Basketball,0
-1,A Lamusi,M,23.0,China,2012 Summer,2012,Summer,Judo,0
-2,Gunnar Nielsen Aaby,M,24.0,Denmark,1920 Summer,1920,Summer,Football,0
-3,Edgar Lindenau Aabye,M,34.0,Denmark/Sweden,1900 Summer,1900,Summer,Tug-Of-War,3
-4,Christine Jacoba Aaftink,F,21.0,Netherlands,1988 Winter,1988,Winter,Speed Skating,0
-5,Christine Jacoba Aaftink,F,21.0,Netherlands,1988 Winter,1988,Winter,Speed Skating,0
-6,Christine Jacoba Aaftink,F,25.0,Netherlands,1992 Winter,1992,Winter,Speed Skating,0
-7,Christine Jacoba Aaftink,F,25.0,Netherlands,1992 Winter,1992,Winter,Speed Skating,0
-8,Christine Jacoba Aaftink,F,27.0,Netherlands,1994 Winter,1994,Winter,Speed Skating,0
+1,Name,Sex,Age,Team,Games,Year,Season,Sport,Medal
+2,A Dijiang,M,24.0,China,1992 Summer,1992,Summer,Basketball,0
+3,A Lamusi,M,23.0,China,2012 Summer,2012,Summer,Judo,0
+4,Gunnar Nielsen Aaby,M,24.0,Denmark,1920 Summer,1920,Summer,Football,0
+5,Edgar Lindenau Aabye,M,34.0,Denmark/Sweden,1900 Summer,1900,Summer,Tug-Of-War,3
+6,Christine Jacoba Aaftink,F,21.0,Netherlands,1988 Winter,1988,Winter,Speed Skating,0
+7,Christine Jacoba Aaftink,F,21.0,Netherlands,1988 Winter,1988,Winter,Speed Skating,0
+8,Christine Jacoba Aaftink,F,25.0,Netherlands,1992 Winter,1992,Winter,Speed Skating,0
 9,Christine Jacoba Aaftink,F,27.0,Netherlands,1994 Winter,1994,Winter,Speed Skating,0
 10,Per Knut Aaland,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
 11,Per Knut Aaland,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-12,Per Knut Aaland,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-13,Per Knut Aaland,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-14,Per Knut Aaland,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-15,Per Knut Aaland,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-16,Per Knut Aaland,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-17,Per Knut Aaland,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-18,John Aalberg,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-19,John Aalberg,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-20,John Aalberg,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-21,John Aalberg,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
-22,John Aalberg,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-23,John Aalberg,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-24,John Aalberg,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-25,John Aalberg,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
-26,"Cornelia ""Cor"" Aalten (-Strannood)",F,18.0,Netherlands,1932 Summer,1932,Summer,Athletics,0
-27,"Cornelia ""Cor"" Aalten (-Strannood)",F,18.0,Netherlands,1932 Summer,1932,Summer,Athletics,0
-28,Antti Sami Aalto,M,26.0,Finland,2002 Winter,2002,Winter,Ice Hockey,0
-29,"Einar Ferdinand ""Einari"" Aalto",M,26.0,Finland,1952 Summer,1952,Summer,Swimming,0
+12,Per Knut Aaland,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
+13,John Aalberg,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
+14,John Aalberg,M,31.0,United States,1992 Winter,1992,Winter,Cross Country Skiing,0
+15,John Aalberg,M,33.0,United States,1994 Winter,1994,Winter,Cross Country Skiing,0
+16,"Cornelia ""Cor"" Aalten (-Strannood)",F,18.0,Netherlands,1932 Summer,1932,Summer,Athletics,0
+17,Antti Sami Aalto,M,26.0,Finland,2002 Winter,2002,Winter,Ice Hockey,0
+18,"Einar Ferdinand ""Einari"" Aalto",M,26.0,Finland,1952 Summer,1952,Summer,Swimming,0
